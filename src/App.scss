@@ -22,18 +22,9 @@ body,
   overflow: hidden !important;
 }
 
-.scrollArea {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-}
-
 .container {
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   max-width: 100%;
   height: 100%;
   display: flex;
@@ -84,11 +75,11 @@ header {
 }
 
 .title {
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  color: #fff;
+  color: #444444;
   span {
     display: block;
   }
